@@ -8,7 +8,6 @@ FROM debian:bullseye-slim
 LABEL org.opencontainers.image.authors="dirk@reher.me"
 LABEL reher.pro.version="1.1"
 LABEL reher.pro.release-date="18.12.2021"
-LABEL org.label-schema.build-date=$BUILD_DATE
 
 RUN apt-get update \
 	&& apt-get install --no-install-recommends -y \
